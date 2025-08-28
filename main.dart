@@ -62,10 +62,6 @@ void main() {
 }
 
 /// using a helper function to  get the exact numeric input from the user.
-/// The user is prompted with a given [prompt] and a line is read from stdin.
-/// The system handles invalid inputs and `FormatException` if the input is empty.
-/// exiting the program with an error message in such cases.
-/// The function returns the double value of the user's input that has been parsed.
 double _getNumericInput(String prompt) {
   // displaying the prompt to user.
   stdout.write(prompt);
